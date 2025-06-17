@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUECIT Website</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <div class="logo">
+            <img src="huecit_logo2.png" >
+        </div>
+
+
+        <nav class="navbar">
+            <a href="#home" class="active">Trang chủ</a>
+            <a href="#about">Giới thiệu</a>
+            <a href="#product">Sản phẩm</a>
+            <a href="#services">Dịch vụ</a>
+            <a href="#education">Đào tạo</a>
+            <a href="#news">Tin tức</a>
+            <a href="#se-park">Công viên phần mềm Huế</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- homepage section design -->
+<section class="home" id="home">
+  <div class="slideshow-container">
+    <div class="slide fade">
+      <img src="home_1.png">
+    </div>
+    <div class="slide fade">
+      <img src="home_2.png">
+    </div>
+
+    <!-- Nút điều hướng -->
+    <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+  </div>
+</section>
+
+
+    <!-- product section design -->
+    <section class="product" id="product">
+        <h2 class="section-heading">Sản phẩm</h2>
+
+        <div class="product-container">
+            <!-- Bên trái là hình ảnh -->
+            <div class="product-img">
+                <img src="pro_1.png" alt="Sản phẩm chính">
+            </div>
+
+            <!-- Bên phải là mô tả -->
+            <div class="product-description">
+                <h3>Hệ thống vé điện tử tham quan di tích Huế</h3>
+                <p>
+                    Là một giải pháp mang lại nhiều tiện ích cho du khách trong việc chủ động mua vé mọi lúc mọi nơi, hỗ trợ thanh toán không dùng tiền mặt, thông qua các thiết bị cá nhân có kết nối Internet như máy tính, điện thoại di động, máy tính bảng...
+                    <br><br>
+                    Hệ thống còn giúp tăng năng suất, giảm chi phí, gia tăng hiệu quả quản lý, phù hợp với xu hướng chuyển đổi số hiện nay.
+                </p>
+            </div>
+        </div>
+
+        <!-- Các sản phẩm khác -->
+        <div class="other-product">
+            <h2 class="heading">Các sản phẩm khác</h2>
+            <div class="product-grid">
+            <div class="product-img"><img src="pro_2.png" alt=""></div>
+            <div class="product-img"><img src="pro_3.png" alt=""></div>
+            <div class="product-img"><img src="pro_4.png" alt=""></div>
+            <div class="product-img"><img src="pro_5.png" alt=""></div>
+            <div class="product-img"><img src="pro_6.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="section-heading">Dịch vụ</h2>
+        <h2 class="description-section-heading">Chúng tôi luôn đem đến cho bạn những dịch vụ tốt nhất</h2>
+
+        <div class="services-container">
+
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Xây dựng và gia công phần mềm</h3>
+                <p>HueCIT là đơn vị cung cấp dịch vụ gia công phần mềm toàn diện, đẳng cấp và đáp ứng được hầu hết nhu cầu phát triển phần mềm và thiết kế web của khách hàng trong và ngoài nước.</p>
+                <a href="https://github.com/CuongWao123/SE_project" class="btn">Xem chi tiết</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Thiết kế mỹ thuật đa phương tiện</h3>
+                    <p>HueCIT cung cấp các dịch vụ thiết kế đa dạng như: Website (thiết kế giao diện hoặc xây dựng website trọn gói), Logo và biểu tượng, hệ thống nhận diện thương hiệu: slogan, business card, letterhead, envelope, brochure, poster, catalogue,….</p>
+                <a href="#" class="btn">Xem chi tiết</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Tư vấn giải pháp CNTT</h3>
+                <p>HueCIT là đơn vị cung cấp dịch vụ gia công phần mềm toàn diện, đẳng cấp và đáp ứng được hầu hết nhu cầu phát triển phần mềm và thiết kế web của khách hàng trong và ngoài nước.</p>
+                <a href="#" class="btn">Xem chi tiết</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Truyền thông số</h3>
+                <p>Thương mại điện tử là xu thế tất yếu của các doanh nghiệp trong Cuộc Cách mạng Công nghiệp 4.0.
+HueCIT cung cấp các giải pháp và công cụ giúp nâng tầm hình ảnh và thương hiệu của doanh nghiệp trên môi trường Internet.</p>
+                <a href="#" class="btn">Xem chi tiết</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Đại lý dịch vụ CNTT</h3>
+                <p>HueCIT là đại lý chính thức phân phối sản phẩm phần mềm diệt virus của Kaspersky và các sản phẩm phần mềm, dịch vụ của Tập đoàn Bưu chính Viễn thông Việt Nam (VNPT) tại Huế.</p>
+                <a href="#" class="btn">Xem chi tiết</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Cho thuê cơ sở hạ tầng</h3>
+                <p>HueCIT là đơn vị đầu mối đại diện cho tỉnh Thừa Thiên Huế trong việc hỗ trợ các doanh nghiệp CNTT, các startup CNTT, các nhà đầu tư CNTT khi đến Huế, phát triển công viên phần mềm, hình thành Khu CNTT tập trung cho Tỉnh.</p>
+                <a href="#" class="btn">Xem chi tiết</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- education section design -->
+    <section class="education" id="education">
+        <div class="education-container">
+            <div class="left-side">
+                <h2 class="section-heading">Đào tạo</h2>
+                <h2 class="description-section-heading">Các khóa đào tạo ngắn hạn, Đào tạo nghề, Mỹ thuật đa phương tiện, Lập trình viên quốc tế, Đào tạo cán bộ, CCVC</h2>
+            </div>
+
+            <div class="right-side">
+                <div>
+                    <span> 99%</span>
+                    <p>Ra trường có việc làm</p>
+                </div>
+                <div>
+                    <span> 2000+</span>
+                    <p>Học viên đã học</p>
+                </div>
+                <div> 
+                    <span>100+</span>
+                    <p>Khóa học được mở</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="education-new"> 
+            <h2 class="sub-section-heading">Tin tức đào tạo</h2>
+
+            <div class="education-news-container">
+                <div class="education-news-box">
+                    <img src="edu_2.jpg" alt="">
+                    <p class="news-text">Khai giảng khóa K8 Lập Trình Web với Java tại HueCIT: Khởi đầu hành trình chinh phục công nghệ</p>
+                </div>
+                <div class="education-news-box">
+                    <img src="edu_3.jpg" alt="">
+                    <p class="news-text">Hoàn thành Khóa học Đồ Họa 3D – Phát triển nội dung thực tế ảo tại HueCIT theo chương trình hợp tác doanh nghiệp</p>
+                </div>
+                <div class="education-news-box">
+                    <img src="edu_4.jpg" alt="">
+                    <p class="news-text">HueCIT Khai Giảng Khóa Thương Mại Điện Tử K22 – Cơ Hội Làm Chủ Kỹ Năng Số Hóa</p>
+                </div>
+                <div class="education-news-box">
+                    <img src="edu_5.jpg" alt="">
+                    <p class="news-text">Hoàn Tất Bảo Vệ Đồ Án Khóa Java K9 – Chiêu Sinh Khóa Java K10 Khai Giảng Tháng 01/2025</p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h2 class="sub-section-heading">Thông báo tuyển sinh</h2>
+
+            <div class="education-news-container">
+                <div class="education-enrollment-box">
+                <img src="edu_6.jpg" alt="">
+                <div class="enrollment-text-box">
+                    <h3 class="enrollment-title">Trở thành Lập trình viên cừ khôi từ con số 0 cùng HueCIT</h3>
+                    <p><span>🕒 Thời gian học:</span> Thứ 2,4,6 từ 17h30 - 19h30</p>
+                    <p><span>📅 Thời gian đào tạo:</span> 5 tháng</p>
+                    <p><span>📝 Đăng ký:</span> Từ nay đến hết ngày 30/03/2025</p>
+                    <p><span>💰 Học phí:</span> <strong class="price">3.900.000 đ/1 khóa</strong></p>
+                    <button class="register-button">Đăng ký</button>
+                </div>
+                </div>
+
+                <div class="education-enrollment-box">
+                <img src="edu_7.jpg" alt="">
+                <div class="enrollment-text-box">
+                    <h3 class="enrollment-title">Chiêu sinh khóa Video editing chuyên nghiệp</h3>
+                    <p><span>🕒 Thời gian học:</span> Thứ 3,5,7 từ 17h30 - 19h30</p>
+                    <p><span>📅 Thời gian đào tạo:</span> 3 tháng</p>
+                    <p><span>📝 Đăng ký:</span> Từ nay đến hết ngày 01/04/2025</p>
+                    <p><span>💰 Học phí:</span> <strong class="price">2.900.000 đ/1 khóa</strong></p>
+                    <button class="register-button">Đăng ký</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- /* news section design */ -->
+    <section class="news" id="news">
+            <h2 class="section-heading">Tin tức</h2>
+            <div class="news-container">
+                <div class="news-box">
+                    <img src="news_1.jpg" alt="">
+                    <p class="news-text">📅 03/03/2025</p>
+                    <p class="news-text">Ra mắt Cổng thông tin điện tử và Trang thông tin Điều hành tác nghiệp Đảng ủy UBND Thành phố Huế</p>
+                    <a href="#" class="btn">Xem chi tiết</a>
+                </div>
+                <div class="news-box">
+                    <img src="news_2.jpg" alt="">
+                    <p class="news-text">📅 03/03/2025</p>
+                    <p class="news-text">HueCIT công bố quyết định bổ nhiệm nhân sự quản lý cấp phòng</p>
+                    <a href="#" class="btn">Xem chi tiết</a>
+                </div>
+                <div class="news-box">
+                    <img src="news_3.jpeg" alt="">
+                    <p class="news-text">📅 03/03/2025</p>
+                    <p class="news-text">Đưa cơ chế chính sách thành lợi thế cạnh tranh phát triển khoa học công nghệ</p>
+                    <a href="#" class="btn">Xem chi tiết</a>
+                </div>
+                <div class="news-box">
+                    <img src="news_4.jpg" alt="">
+                    <p class="news-text">📅 03/03/2025</p>
+                    <p class="news-text">Gần 1,500 học sinh trong cả nước đăng ký tham gia Cuộc thi Hue-ICT Challenge 2025</p>
+                    <a href="#" class="btn">Xem chi tiết</a>
+                </div>
+            </div>
+    
+    </section>
+
+        <!-- /* SE park section design */ -->
+    <section class="se-park" id="se-park">
+            <h2 class="section-heading">Công viên phần mềm Huế</h2>
+            <div class="company-grid">
+            <div class="company-img"><img src="sep_1.png" alt=""></div>
+            <div class="company-img"><img src="sep_2.png" alt=""></div>
+            <div class="company-img"><img src="sep_3.png" alt=""></div>
+            <div class="company-img"><img src="sep_4.png" alt=""></div>
+            <div class="company-img"><img src="sep_5.png" alt=""></div>
+            <div class="company-img"><img src="sep_6.png" alt=""></div>
+            <div class="company-img"><img src="sep_7.png" alt=""></div>
+            <div class="company-img"><img src="sep_8.png" alt=""></div>
+            <div class="company-img"><img src="sep_9.png" alt=""></div>
+            <div class="company-img"><img src="sep_10.png" alt=""></div>
+            <div class="company-img"><img src="sep_11.png" alt=""></div>
+            <div class="company-img"><img src="sep_12.png" alt=""></div>
+            </div>    
+    </section>
+
+
+
+    <!-- footer design -->
+    <footer class="footer">
+            <div class="footer-column">
+                <h3>THÔNG TIN LIÊN HỆ</h3>
+                <p>Địa chỉ: 06 Lê Lợi, P. Vĩnh Ninh, TP. Huế</p>
+                <p>Email: <a href="mailto:info@huecit.vn">info@huecit.vn</a></p>
+                <p>Điện thoại: <a href="tel:+842343823650">+84.234. 3 823 650</a></p>
+                <p>© 2025 HueCIT</p>
+                <a href="#" class="footer-btn">Liên hệ & Góp ý</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>GIỚI THIỆU</h3>
+                <ul>
+                <li>Giải thưởng</li>
+                <li>Chức năng và nhiệm vụ</li>
+                <li>Đối tác</li>
+                <li>Dự án</li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>DỊCH VỤ</h3>
+                <ul>
+                <li>Tư vấn giải pháp CNTT</li>
+                <li>Xây dựng phần mềm</li>
+                <li>Gia công phần mềm</li>
+                <li>Thiết kế UI/UX</li>
+                <li>Truyền thông số</li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>SẢN PHẨM</h3>
+                <ul>
+                <li>Sản phẩm phần mềm</li>
+                <li>Sản phẩm chuyển đổi số</li>
+                <li>Ứng dụng di động</li>
+                </ul>
+            </div>
+
+            <div class="footer-iconTop">
+                <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- custom js -->
+<script src="script.js"> </script>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Khi nhấn nút
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+  let i;
+  const slides = document.getElementsByClassName("slide");
+  if (n > slides.length) slideIndex = 1;
+  if (n < 1) slideIndex = slides.length;
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex - 1].style.display = "block";
+}
+
+// Tự động chuyển đổi slide mỗi 5 giây
+setInterval(function() {
+  plusSlides(1);
+}, 5000);
+</script>
+
+
+</body>
+
+</html>
