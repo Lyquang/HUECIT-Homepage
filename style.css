@@ -662,7 +662,7 @@ span {
 }
 
 .services-container .services-box {
-    flex: 1 1 30rem;
+    flex: 1 1 calc(33.333% - 2rem);
     background: var(--bg-color);
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
@@ -698,22 +698,28 @@ span {
 }
 
 /* software park section */
+.se-park {
+  min-height: 50vh;
+  background-color: var(--bg-color);
+  padding: 10rem 7% 2rem;
+}
 
 .company-grid {
   display: flex;
   overflow-x: auto;
-  white-space: wrap;
+  white-space: nowrap;
   gap: 20px;
   padding: 10px 0;
   scroll-behavior: auto;
   -ms-overflow-style: none;
   scrollbar-width: none;     
+  max-height: 300px;
+  
 }
 
-/* .company-grid::-webkit-scrollbar {
+.company-grid::-webkit-scrollbar {
   display: none;      
-} */
-
+}
 
 /* Footer */
 .footer {
